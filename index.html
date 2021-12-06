@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gwendolyn&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d97b8a6f08.js" crossorigin="anonymous"></script>
+    <title>Life is Beautiful 💖</title>
+</head>
+
+<!-- <style>
+    /* This is for wire framing to see our rows/columns */
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style> -->
+
+
+
+
+<body>
+    <header class="container-fluid sticky-top">
+        <div class="row ">
+            <nav class="navbar navbar-expand-lg navbar ">
+
+
+                <div class="col-md-6">
+                    <img src="https://www.clipartkey.com/mpngs/m/45-456397_life-is-beautiful-festival-logo-clipart-png-download.png"
+                        height="85px" width="90px" alt="">
+                </div>
+                <div class="col-md-6 text-dark d-flex justify-content-end ">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link mx-3 text-dark" href="#">OUR PURPOSE <span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 text-dark" href="#">2021 LINEUP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 text-dark" aria-current="page" href="#line-ups">PAST
+                                    LINE-UPS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-3 text-dark" href="#">TICKETS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mx-3 text-dark" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    STORE
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">HOODIES</a>
+                                    <a class="dropdown-item" href="#">HATS</a>
+                                    <a class="dropdown-item" href="#">POSTERS</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <!-- ROW 1 WITH FORM & BACKGROUND IMG -->
+        <div class="row lib-img">
+
+            <div class="col-md-4 p-5  ">
+                <div class="card ">
+                    <form class="p-2 form-color shadow rounded ">
+
+                        <div class="form-row p-2 ">
+                            <div class="form-group col-md-6">
+                                <label class="p-2" for="input">FIRST NAME</label>
+                                <input type="" class="form-control" id="" placeholder="">
+                            </div>
+                            <div class="form-group col-md-6 ">
+                                <label class="p-2" for="input">LAST NAME</label>
+                                <input type="" class="form-control" id="" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group p-2">
+                            <label class="p-2" for="inputEmail4">EMAIL</label>
+                            <input type="Email" class="form-control" id="inputEmail4" placeholder="">
+                        </div>
+                        <div class="form-group p-2">
+                            <label class="p-2" for="inputAddress2">PHONE</label>
+                            <input type="text" class="form-control" id="" placeholder="">
+                        </div>
+                        <div class="form-row p-2">
+                            <div class="form-group col-md-6">
+                                <label class="p-2" for="inputZip">ZIP CODE</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+
+                        </div>
+                        <div class="d-flex justify-content-center">
+
+                            <button type="submit" class="btn btn-dark m-3 px-5 ">RSVP</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div class="col-md-8 p-5 d-flex justify-content-center hide">
+                <img class="img-fluid hide"
+                    src="https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/09/19220749/LIb21-ThankYou-Web.png"
+                    alt=""
+                    srcset="https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/09/19220749/LIb21-ThankYou-Web.png 1400w,https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/09/19220749/LIb21-ThankYou-Web-300x210.png 300w,https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/09/19220749/LIb21-ThankYou-Web-768x537.png 768w,https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/09/19220749/LIb21-ThankYou-Web-1024x715.png 1024w" ">
+            </div>
+
+        </div>
+        <!-- ROW 2 WITH TEXT & ICONS -->
+        <div class=" row ">
+                <div class=" col-md-6 d-flex justify-content-center align-items-center p-3">
+                <div>
+
+                    <h1 class="p-3">
+                        WE EXIST TO BUILD A MORE BEAUTIFUL WORLD
+                    </h1>
+                    <h5 class="p-3 ">
+                        A name like 'Life is Beautiful' comes with great responsibility. Because Life is Beautiful
+                        is
+                        more
+                        than just a festival, it's a way of moving through the world.
+                    </h5>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 p-5">
+
+
+                <div
+                    class="card d-flex justify-content-center align-items-center card-move shadow p-3 mb-5 bg-white rounded">
+                    <h2 class="p-2">LEARN MORE ABOUT OUR EXPERIENCES</h2>
+                    <p>
+                        <i class="fa fa-music  py-3" aria-hidden="true">
+                            Music </i>
+                    </p>
+
+                    <p>
+                        <i class="fas fa-theater-masks  py-3">
+                            Comedy
+                        </i>
+                    </p>
+
+                    <p>
+
+                        <i class="fas fa-utensils  py-3">
+                            Culinary
+                        </i>
+                    </p>
+
+                    <p>
+
+                        <i class="fas fa-paint-brush  py-3">
+                            Art
+                        </i>
+                    </p>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+        </div>
+        <!-- ROW 3 WITH PLACEHOLDER IMG & TEXT -->
+        <div class="row row3color ">
+            <div class="col-md-6 p-5 d-flex justify-content-center align-items-center">
+
+
+
+
+
+                <img class=" m-5 img-fluid shadow rounded"
+                    src="https://ewscripps.brightspotcdn.com/dims4/default/8a794ca/2147483647/strip/true/crop/4000x2667+0+0/resize/2160x1440!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F6b%2Fbc%2F6d533a6b4955b19725b7ac6b70f8%2Flib2019-0920-185720-7655-alivecoverage.jpg">
+
+
+            </div>
+
+            <div class="col-md-6 p-3 d-flex justify-content-center align-items-center">
+                <div>
+
+                    <h1 class="text-light m-5">WE EXIST TO SHIFT PERSPECTIVES</h1>
+
+                    <h5 class="text-light fs-1 m-5">
+                        When you shift a person's perspective, you shift their reality. Science tells us that being kind
+                        and
+                        speaking positive thoughts boosts serotonin and dopamine, creating feelings of satisfaction and
+                        well-being. We believe that the simple act of saying, reading, and hearing "Life is Beautiful"
+                        more
+                        often can make the world so.
+                    </h5>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ROW 4 WITH 1 COL FOR "LINEUP" -->
+
+        <div class="row  ">
+            <div class="col-md-12 d-flex justify-content-center align-items-center p-5">
+                <h1 class="font-family" id="line-ups">PAST LINE-UPS</h1>
+
+            </div>
+
+        </div>
+        <!-- ROW 5 WITH 3 COLS (MIDDLE BOX SLIGHTLY LARGER) -->
+        <div class="row p-5 #lineup">
+
+            <div class="col-md-4 d-flex justify-content-center align-content-center p-5 order-md-1 order-2 ">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+
+                    <img class="img-fluid"
+                        src="https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/08/17152753/lib-poster-17-700.jpg"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center align-content-center order-md-2 order-1">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+
+                    <img class="img-fluid"
+                        src="https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/08/17152553/lib-poster-18-700.jpg"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center align-content-center p-5 order-md-3 order-3">
+                <div class="card shadow p-3 mb-5 bg-white rounded">
+
+                    <img class="img-fluid"
+                        src="https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/08/17152613/lib-poster-19-700.jpg"
+                        alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-md-12 footer-img img-fluid p-5">
+                    <div>
+
+                        <h1 class="text-light p-5">
+
+                            "Big, bold and ambitious like it's extravagant host city. Life is Beautiful transforms 18
+                            blocks
+                            in
+                            Downtown
+                            Las Vegas into a celebration of music, art, food and ideas over three desert-glitz days."
+                        </h1>
+                    </div>
+                    <div>
+
+                        <h1 class="quote-color p-5 d-flex justify-content-end">
+                            - CONDE NAST TRAVELER
+
+                        </h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row footer-color  ">
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div>
+
+
+                        <img class=" img-fluid p-5"
+                            src="https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/02/09222836/lib21-ebla.png"
+                            alt="">
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 d-flex justify-content-center align-items-center ">
+                    <div class="text-light">
+                        <p>
+                            PRESS
+                        </p>
+                        <P>
+                            SPONSORS
+                        </P>
+                        <P>
+                            CAREERS
+                        </P>
+                        <P>
+                            CONTACT
+                        </P>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="text-light">
+
+                        <p>
+                            COMMUNITY GUIDELINES
+                        </p>
+                        <P>
+                            TERMS OF USE
+                        </P>
+                        <P>
+                            PRIVACY POLICY
+                        </P>
+                    </div>
+                </div>
+
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="text-light">
+
+                        <i class="fab fa-angellist fs-3"> 2021 Life is Beautiful Music & Art Festival</i>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>

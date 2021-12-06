@@ -1,0 +1,72 @@
+:root{
+    --primary: rgb(247, 247, 247);
+    --secondary: rgb(50, 3, 124);
+    --tertiary: rgb(253, 56, 89);
+    --footer: rgb(8, 8, 8);
+    --video: url(A3062CF0-8EC9-4E0F-902E-C7D22E7B6933.mp4)
+
+}
+
+.navbar{
+background-color: var(--primary);
+height: 6em;
+}
+
+.lib-img{
+background-image: url(https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/08/17155628/lib-snapshot-9.jpg);
+height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.form-color{
+    background-color: var(--tertiary);
+   
+  background-size: cover;
+  background-position: center;
+}
+
+.row3color{
+    background-color: var(--secondary);
+}
+
+@media (max-width: 768px) {
+.hide {display: none;}
+}
+
+@media (min-width: 768px){
+
+    .card-move {
+        transform: translateY(7rem);
+    }
+    
+    }
+
+    .footer-img{
+        background-image: url(https://cdn.lifeisbeautiful.com/wp-content/uploads/2021/08/17155604/lib-snapshot-8.jpg);
+        height:40vh;
+        background-size: cover;
+        background-position: translateY(20em);
+    }
+    
+.seester-img{
+    background-clip: var(--video);
+}
+
+.font-family{
+    font-family: 'Anton', sans-serif;
+}
+
+.quote-color{
+color: var(--tertiary);
+
+}
+
+
+
+.footer-color{
+    background-color: var(--footer);
+height: 25vh;
+}
